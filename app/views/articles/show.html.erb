@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<h1>
+  <strong>Title:</strong>
+  <%= @article.title %>
+</h1>
+
+  <%= image_tag @article.image %>
+
+  <%= @article.content %>
+
+<p>
+  <%= link_to 'Revenir à la liste des articles', articles_path %>
+</p>
